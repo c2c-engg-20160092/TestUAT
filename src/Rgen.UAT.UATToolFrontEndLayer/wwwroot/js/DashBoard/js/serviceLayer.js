@@ -15,9 +15,9 @@ var r = window.location.href.split('/');
 var FrontEndUrl = r[0] + "//" + r[2];
 var ServiceLayer = {
 
-   serviceURL: "http://uatservicelayer-uatvs-servicelayer.cloudapps.click2cloud.org/api",
+   //serviceURL: "http://uatservicelayer-uatvs-servicelayer.cloudapps.click2cloud.org/api",
 
-    //serviceURL: "http://localhost:59947/api/",
+    serviceURL: "http://uat-demo-service-uat-demo-service.cloudapps.click2cloud.org/api/",
 
     appurl: FrontEndUrl,
     clientInfo: new Array(),
