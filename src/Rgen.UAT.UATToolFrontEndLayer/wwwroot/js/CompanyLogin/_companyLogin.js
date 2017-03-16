@@ -84,7 +84,7 @@ var _companydetails =
         },
           ShowLoader: function () {
             $.blockUI({
-                message: '<div style="font-size:24pt;font-weight:400;color:green;padding-top:8px;padding-bottom:8px;">Congratulations! Company Registered Successfully..!!</div>',
+                message: '<div style="font-size:24pt;font-weight:400;color:white;background-color:rgb(0,102,179);padding-top:8px;padding-bottom:8px;">Congratulations! Company Registered Successfully..!!</div>',
                 fadeIn: 0,
                 css: {
                    
