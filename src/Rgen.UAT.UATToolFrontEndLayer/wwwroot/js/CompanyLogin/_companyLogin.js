@@ -65,7 +65,7 @@ var _companydetails =
                         SpanSaveMsg.text("Congragulations Company Create Successfully..Please add more users for better UAT..!!")*/
                     }
                     setTimeout(function () {
-                        func.redirect('UserRegistration');
+                        func.redirect('Login');
                     }, 2000)
                 }
                 else {
