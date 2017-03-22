@@ -17,7 +17,9 @@ var ServiceLayer = {
 
    //serviceURL: "http://uatservicelayer-uatvs-servicelayer.cloudapps.click2cloud.org/api",
 
-    serviceURL: "http://uat-demo-service-uat-demo-service.cloudapps.click2cloud.org/api",
+    // serviceURL: "http://uat-demo-service-uat-demo-service.cloudapps.click2cloud.org/api",
+
+    serviceURL: "http://localhost:59947/api/",
 
     appurl: FrontEndUrl,
     clientInfo: new Array(),
