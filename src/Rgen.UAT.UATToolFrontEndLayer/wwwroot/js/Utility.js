@@ -230,6 +230,7 @@ var func =
                         for (var i = 0; i < Len; i++) {
                             _option += "<option value=" + _data[i].id + ">" + _data[i].value + "</option>"
                         }
+
                         dropdown.html('');
                         dropdown.append(_option);
                     }

@@ -132,7 +132,7 @@
         <div class="form-group">
             <label for="TxtFName" class="col-md-2 control-label m">First Name <span class="red">*</span></label>
             <div class="col-md-3">
-                <input type="text" class="form-control mandatory" id="TxtFName" placeholder="Enter First Name">
+                <input type="text" class="form-control mandatory" id="TxtFName" placeholder="Enter First Name" value="Prashant">
 
             </div>
             <span class="msgSpan"></span>
@@ -140,21 +140,21 @@
         <div class="form-group">
             <label for="TxtLName" class="col-md-2 control-label m">Last Name<span class="red">*</span></label>
             <div class="col-md-3">
-                <input type="text" class="form-control mandatory" id="txtLName" placeholder="Enter Last Name">
+                <input type="text" class="form-control mandatory" id="txtLName" placeholder="Enter Last Name" value="Mishra">
             </div>
             <span class="msgSpan"></span>
         </div>
         <div class="form-group">
             <label for="TxtLName" class="col-md-2 control-label m">Password<span class="red">*</span></label>
             <div class="col-md-3">
-                <input type="password" class="form-control mandatory" id="TxtPwd" placeholder="Enter Password">
+                <input type="password" class="form-control mandatory" id="TxtPwd" placeholder="Enter Password" value="123456">
             </div>
             <span class="msgSpan"></span>
         </div>
         <div class="form-group">
             <label for="TxtEmail" class="col-md-2 control-label">Email Id<span class="red">*</span></label>
             <div class="col-md-3">
-                <input type="text" class="form-control mandatory" id="TxtEmail" onblur="return func.CheckEmail(this, 'email');" placeholder="Enter Email ID">
+                <input type="text" class="form-control mandatory" id="TxtEmail" onblur="return func.CheckEmail(this, 'email');" placeholder="Enter Email ID" value="pm@click2cloud.net">
             </div>
             <span class="msgSpan email"></span>
         </div>
@@ -168,17 +168,19 @@
         <div class="form-group">
             <label for="OptCountry" class="col-md-2 control-label">Country</label>
             <div class="col-sm-9">
-                <select id="OptCountry" class="form-control"></select>
+                <select id="OptCountry" class="form-control">
+                </select>
             </div>
         </div>
         <div class="form-group">
             <label for="OptState" class="col-md-2 control-label">State</label>
             <div class="col-sm-9">
-                <select id="OptState" class="form-control"></select>
+                <select id="OptState" class="form-control" >
+                </select>
             </div>
         </div>
         <div class="form-group" >            
-            <input id="chkTempData" type="checkbox" AutoPostBack="True"  />
+            <input id="chkTempData" type="checkbox" AutoPostBack="True" checked="checked" />
             <label for="chkData" style="padding-left:25px">With Sample Data</label>
             
             </div>

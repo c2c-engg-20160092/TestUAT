@@ -1,8 +1,7 @@
 ﻿"use strict"
 var _companydetails =
     {
-
-
+       
         _collectformValues: function (_container, SaveMsg) {
             if (_container != null && _container != undefined && _container.length > 0) {
                 var fname = $('#' + _container[0] + '');
@@ -26,6 +25,7 @@ var _companydetails =
                 }
                 else
                     tempData = "false";
+                
                 var values = {
                     'FirstName': fname.val(),
                     'LastName': Lname.val(),
